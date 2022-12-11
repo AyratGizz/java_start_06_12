@@ -4,7 +4,7 @@ public class Valid_Palindrome_125 {
     public static void main(String[] args) {
     }
 
-    class Solution {
+    static class Solution {
         public boolean isPalindrome(String s) {
             int l = 0;
             int r = s.length() - 1;

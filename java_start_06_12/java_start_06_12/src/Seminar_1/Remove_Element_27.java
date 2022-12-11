@@ -4,7 +4,7 @@ public class Remove_Element_27 {
     public static void main(String[] args) {
     }
 
-    class Solution {
+    static class Solution {
         public int removeElement(int[] nums, int val) {
             int i = 0;
 

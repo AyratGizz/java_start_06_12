@@ -4,7 +4,7 @@ public class Reverse_Words_in_a_String_151 {
     public static void main(String[] args) {
     }
 
-    class Solution {
+    static class Solution {
         public String reverseWords(String s) {
             StringBuilder sb = new StringBuilder(s).reverse();
             reverseWords(sb, sb.length());

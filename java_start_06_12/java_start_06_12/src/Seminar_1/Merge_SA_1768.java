@@ -2,10 +2,14 @@ package Seminar_1;
 
 public class Merge_SA_1768 {
     public static void main(String[] args) {
+        System.out.println(Solution.mergeAlternately("abc", "pqr"));
+        System.out.println(Solution.mergeAlternately("ab", "pqrs"));
+        System.out.println(Solution.mergeAlternately("abcd", "pq"));
+
     }
 
-    class Solution {
-        public String mergeAlternately(String word1, String word2) {
+    static class Solution {
+        static String mergeAlternately(String word1, String word2) {
             final int n = Math.min(word1.length(), word2.length());
             StringBuilder sb = new StringBuilder();
 
