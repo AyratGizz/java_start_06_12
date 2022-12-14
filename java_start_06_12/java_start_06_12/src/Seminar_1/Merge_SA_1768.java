@@ -10,7 +10,7 @@ public class Merge_SA_1768 {
 
     static class Solution {
         static String mergeAlternately(String word1, String word2) {
-            final int n = Math.min(word1.length(), word2.length());
+            int n = Math.min(word1.length(), word2.length());
             StringBuilder sb = new StringBuilder();
 
             for (int i = 0; i < n; ++i) {

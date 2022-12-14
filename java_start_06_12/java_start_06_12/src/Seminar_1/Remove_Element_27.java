@@ -8,7 +8,7 @@ public class Remove_Element_27 {
         public int removeElement(int[] nums, int val) {
             int i = 0;
 
-            for (final int num : nums)
+            for (int num : nums)
                 if (num != val)
                     nums[i++] = num;
 
