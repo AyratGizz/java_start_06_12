@@ -8,7 +8,6 @@ public class Max_Area_of_Island_695 {
     }
 
     class Solution {
-        // DFS and you can implement BFS with queue
         public int maxAreaOfIsland(int[][] grid) {
             int[] dr = new int[]{1, -1, 0, 0};
             int[] dc = new int[]{0, 0, 1, -1};
@@ -27,7 +26,8 @@ public class Max_Area_of_Island_695 {
                             for (int k = 0; k < 4; k++) {
                                 int nr = r + dr[k];
                                 int nc = c + dc[k];
-                                if (0 <= nr && nr < grid.length && 0 <= nc && nc < grid[0].length && grid[nr][nc] == 1) {
+                                if (0 <= nr && nr < grid.length && 0 <=
+                                        nc && nc < grid[0].length && grid[nr][nc] == 1) {
                                     stack.push(new int[]{nr, nc});
                                     grid[nr][nc] = 0;
                                 }
