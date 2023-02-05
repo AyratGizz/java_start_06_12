@@ -1,9 +1,9 @@
-package sem6.Homeworks.Calc.TypeData;
+package OOP.seminar6.DZ_sem6.Calc.TypeData;
 
-import sem6.Homeworks.Calc.TypeData.Interface.IDivision;
-import sem6.Homeworks.Calc.TypeData.Interface.IMultiplication;
-import sem6.Homeworks.Calc.TypeData.Interface.ISubtraction;
-import sem6.Homeworks.Calc.TypeData.Interface.ISummarize;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.IDivision;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.IMultiplication;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.ISubtraction;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.ISummarize;
 
 import java.util.Scanner;
 

@@ -1,15 +1,14 @@
-package sem6.Homeworks.Calc.TypeData;
-
+package OOP.seminar6.DZ_sem6.Calc.TypeData;
 /*
-* Создал базовый класс типа вычислений
-* от которого наследуют классы Complex Rational
-* и разбил общий интерфейс на 4 для каждой операции
-* */
+ * Создаём базовый класс вычислений
+ * от которого наследуют классы Complex Rational
+ * разбил общий интерфейс на четыре для каждой операции
+ * */
 
-import sem6.Homeworks.Calc.TypeData.Interface.IDivision;
-import sem6.Homeworks.Calc.TypeData.Interface.IMultiplication;
-import sem6.Homeworks.Calc.TypeData.Interface.ISubtraction;
-import sem6.Homeworks.Calc.TypeData.Interface.ISummarize;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.IDivision;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.IMultiplication;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.ISubtraction;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.ISummarize;
 
 public class BaseType implements IMultiplication, IDivision, ISubtraction, ISummarize {
     @Override

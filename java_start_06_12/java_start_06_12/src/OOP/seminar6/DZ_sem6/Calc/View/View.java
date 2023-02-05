@@ -1,4 +1,4 @@
-package sem6.Homeworks.Calc.View;
+package OOP.seminar6.DZ_sem6.Calc.View;
 
 import java.util.Scanner;
 

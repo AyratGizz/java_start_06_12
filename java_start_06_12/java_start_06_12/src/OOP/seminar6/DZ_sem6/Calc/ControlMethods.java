@@ -1,9 +1,9 @@
-package sem6.Homeworks.Calc;
+package OOP.seminar6.DZ_sem6.Calc;
 
-import sem6.Homeworks.Calc.TypeData.BaseType;
-import sem6.Homeworks.Calc.TypeData.Complex;
-import sem6.Homeworks.Calc.TypeData.Rational;
-import sem6.Homeworks.Calc.View.View;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.BaseType;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Complex;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Rational;
+import OOP.seminar6.DZ_sem6.Calc.View.View;
 
 public class ControlMethods {
     BaseType num1;

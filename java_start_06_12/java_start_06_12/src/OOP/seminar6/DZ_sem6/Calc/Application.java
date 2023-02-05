@@ -1,4 +1,4 @@
-package sem6.Homeworks.Calc;
+package OOP.seminar6.DZ_sem6.Calc;
 
 
 public class Application {

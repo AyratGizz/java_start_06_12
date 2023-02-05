@@ -1,16 +1,16 @@
-package sem6.Homeworks.Calc.TypeData;
+package OOP.seminar6.DZ_sem6.Calc.TypeData;
 
-import sem6.Homeworks.Calc.TypeData.Interface.IDivision;
-import sem6.Homeworks.Calc.TypeData.Interface.IMultiplication;
-import sem6.Homeworks.Calc.TypeData.Interface.ISubtraction;
-import sem6.Homeworks.Calc.TypeData.Interface.ISummarize;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.IDivision;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.IMultiplication;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.ISubtraction;
+import OOP.seminar6.DZ_sem6.Calc.TypeData.Interface.ISummarize;
 
 import java.util.Scanner;
 
 public class Rational extends BaseType implements ISummarize, IMultiplication, ISubtraction, IDivision {
     private double value;
 
-    public Rational (String msg) {
+    public Rational(String msg) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter " + msg + " rational digit > ");
         this.value = in.nextDouble();
